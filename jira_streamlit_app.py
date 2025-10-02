@@ -22,7 +22,7 @@ if st.sidebar.button("Fetch Issues"):
         st.error("Please fill in all fields to proceed.")
     else:
         with st.spinner("Fetching issues from Jira..."):
-            url = "https://anfcorp.atlassian.com/rest/api/3/search"
+            url = "https://anfcorp.atlassian.net/rest/api/3/search"
             headers = {
                 "Accept": "application/json",
                 "Content-Type": "application/json"
