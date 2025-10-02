@@ -18,7 +18,7 @@ if st.button("Fetch Issues"):
         st.error("Please fill in all fields.")
     else:
         # Jira Cloud API endpoint using the new /search/jql POST endpoint
-        url = "https://anfcorp.atlassian.net/rest/api/3/search/jql"
+        url = "https://anfcorp.atlassian.net/rest/api/3/search/"
         headers = {
             "Accept": "application/json",
             "Content-Type": "application/json"
